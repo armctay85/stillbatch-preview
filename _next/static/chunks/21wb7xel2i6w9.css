@@ -6,7 +6,8 @@
 /* First phone screen: one job, one button, price as a small bar */
 .hero-price-bar{letter-spacing:0}
 @media (max-width:639px){
-  .hero-offer{min-height:calc(100svh - 7.25rem);display:flex;flex-direction:column;justify-content:center}
-  .hero-offer > .mt-8{margin-top:1.75rem}
-  .hero-price-bar{margin-top:1.15rem}
+  .hero-offer{min-height:calc(100svh - 7.25rem);display:flex;flex-direction:column}
+  .hero-offer > .mt-8{margin-top:auto;padding-top:1.5rem}
+  .hero-offer > .mt-8 > a{width:100%}
+  .hero-price-bar{margin-top:.85rem}
 }
